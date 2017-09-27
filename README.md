@@ -45,7 +45,7 @@ import Spinner from 'react-native-loading-spinner';
 | :------------ |:---------------:| :---------------:| :-----|
 | isAnimating | `true` | `boolean` | Visibility of the spinner |
 | color | `rgb(0, 122, 255)` | `string` | Color of the spinner |
-| backgroundRailColor | 'transparent' | `string` | color of the background arc |
+| backgroundRailColor | `transparent` | `string` | color of the background arc |
 | colorSequence | `undefined` | `Array<string>` |  | An array of colors that changes on each cycle |
 | size | `36` | `number` | Size of the spinner |
 | lineWidth | `2` | `number` | line width of the arc |
