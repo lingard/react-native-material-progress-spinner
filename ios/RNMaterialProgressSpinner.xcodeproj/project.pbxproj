@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C49C6491F7ADDC400EC4F27 /* DRPLoadingSpinner.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C49C6421F7ADDC200EC4F27 /* DRPLoadingSpinner.h */; };
+		2C49C64C1F7ADDC400EC4F27 /* DRPLoadingSpinnerTimingFunction.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C49C6451F7ADDC300EC4F27 /* DRPLoadingSpinnerTimingFunction.h */; };
+		2C49C6551F7ADE3F00EC4F27 /* RNMaterialProgressSpinnerManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF055C1F794D2800821582 /* RNMaterialProgressSpinnerManager.h */; };
+		2C49C6561F7ADE3F00EC4F27 /* RNMaterialProgressSpinner.h in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5881CC2AC0600A0062D /* RNMaterialProgressSpinner.h */; };
+		2C49C6581F7ADE5D00EC4F27 /* RNMaterialProgressSpinnerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF055D1F794D2800821582 /* RNMaterialProgressSpinnerManager.m */; };
+		2C49C6591F7ADE5D00EC4F27 /* RNMaterialProgressSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNMaterialProgressSpinner.m */; };
+		2C49C65B1F7ADE5D00EC4F27 /* DRPLoadingSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49C6461F7ADDC300EC4F27 /* DRPLoadingSpinner.m */; };
+		2C49C65C1F7ADE5D00EC4F27 /* DRPLoadingSpinnerTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49C6471F7ADDC300EC4F27 /* DRPLoadingSpinnerTimingFunction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNMaterialProgressSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMaterialProgressSpinner.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C49C6421F7ADDC200EC4F27 /* DRPLoadingSpinner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DRPLoadingSpinner.h; path = Libraries/DRPLoadingSpinner/core/DRPLoadingSpinner.h; sourceTree = "<group>"; };
+		2C49C6431F7ADDC200EC4F27 /* DRPRefreshControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DRPRefreshControl.h; path = Libraries/DRPLoadingSpinner/core/DRPRefreshControl.h; sourceTree = "<group>"; };
+		2C49C6441F7ADDC300EC4F27 /* DRPRefreshControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DRPRefreshControl.m; path = Libraries/DRPLoadingSpinner/core/DRPRefreshControl.m; sourceTree = "<group>"; };
+		2C49C6451F7ADDC300EC4F27 /* DRPLoadingSpinnerTimingFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DRPLoadingSpinnerTimingFunction.h; path = Libraries/DRPLoadingSpinner/core/DRPLoadingSpinnerTimingFunction.h; sourceTree = "<group>"; };
+		2C49C6461F7ADDC300EC4F27 /* DRPLoadingSpinner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DRPLoadingSpinner.m; path = Libraries/DRPLoadingSpinner/core/DRPLoadingSpinner.m; sourceTree = "<group>"; };
+		2C49C6471F7ADDC300EC4F27 /* DRPLoadingSpinnerTimingFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DRPLoadingSpinnerTimingFunction.m; path = Libraries/DRPLoadingSpinner/core/DRPLoadingSpinnerTimingFunction.m; sourceTree = "<group>"; };
+		2C49C6481F7ADDC400EC4F27 /* DRPRefreshControl_Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DRPRefreshControl_Protected.h; path = Libraries/DRPLoadingSpinner/core/DRPRefreshControl_Protected.h; sourceTree = "<group>"; };
+		2CCF055C1F794D2800821582 /* RNMaterialProgressSpinnerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNMaterialProgressSpinnerManager.h; sourceTree = "<group>"; };
+		2CCF055D1F794D2800821582 /* RNMaterialProgressSpinnerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNMaterialProgressSpinnerManager.m; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* RNMaterialProgressSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMaterialProgressSpinner.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNMaterialProgressSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMaterialProgressSpinner.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNMaterialProgressSpinner.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C49C6501F7ADDDA00EC4F27 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2C49C6511F7ADDE400EC4F27 /* DRPLoadingSpinner */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		2C49C6511F7ADDE400EC4F27 /* DRPLoadingSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				2C49C6421F7ADDC200EC4F27 /* DRPLoadingSpinner.h */,
+				2C49C6461F7ADDC300EC4F27 /* DRPLoadingSpinner.m */,
+				2C49C6451F7ADDC300EC4F27 /* DRPLoadingSpinnerTimingFunction.h */,
+				2C49C6471F7ADDC300EC4F27 /* DRPLoadingSpinnerTimingFunction.m */,
+				2C49C6481F7ADDC400EC4F27 /* DRPRefreshControl_Protected.h */,
+				2C49C6431F7ADDC200EC4F27 /* DRPRefreshControl.h */,
+				2C49C6441F7ADDC300EC4F27 /* DRPRefreshControl.m */,
+			);
+			name = DRPLoadingSpinner;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				2CCF055C1F794D2800821582 /* RNMaterialProgressSpinnerManager.h */,
+				2CCF055D1F794D2800821582 /* RNMaterialProgressSpinnerManager.m */,
+				B3E7B5881CC2AC0600A0062D /* RNMaterialProgressSpinner.h */,
+				B3E7B5891CC2AC0600A0062D /* RNMaterialProgressSpinner.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+				2C49C6501F7ADDDA00EC4F27 /* Libraries */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNMaterialProgressSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNMaterialProgressSpinner" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNMaterialProgressSpinner;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNMaterialProgressSpinner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNMaterialProgressSpinner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNMaterialProgressSpinner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C49C6581F7ADE5D00EC4F27 /* RNMaterialProgressSpinnerManager.m in Sources */,
+				2C49C6591F7ADE5D00EC4F27 /* RNMaterialProgressSpinner.m in Sources */,
+				2C49C65B1F7ADE5D00EC4F27 /* DRPLoadingSpinner.m in Sources */,
+				2C49C65C1F7ADE5D00EC4F27 /* DRPLoadingSpinnerTimingFunction.m in Sources */,
+				2C49C6551F7ADE3F00EC4F27 /* RNMaterialProgressSpinnerManager.h in Sources */,
+				2C49C6561F7ADE3F00EC4F27 /* RNMaterialProgressSpinner.h in Sources */,
+				2C49C6491F7ADDC400EC4F27 /* DRPLoadingSpinner.h in Sources */,
+				2C49C64C1F7ADDC400EC4F27 /* DRPLoadingSpinnerTimingFunction.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNMaterialProgressSpinner;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNMaterialProgressSpinner;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNMaterialProgressSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNMaterialProgressSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
