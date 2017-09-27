@@ -1,6 +1,5 @@
 # react-native-material-progress-spinner
 
-
 A react-native port of [DRPLoadingSpinner](https://github.com/justindhill/DRPLoadingSpinner)
 
 Only supports iOS at the moment.
@@ -18,7 +17,7 @@ Only supports iOS at the moment.
 #### iOS
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-loading-spinner` and add `RNMaterialProgressSpinner.xcodeproj`
+2. Go to `node_modules` ➜ `react-native-material-progress-spinner` and add `RNMaterialProgressSpinner.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNMaterialProgressSpinner.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)<
 
@@ -27,12 +26,14 @@ Check [index.ios.js](https://github.com/lingard/react-native-material-progress-s
 
 ## Usage
 ```javascript
-import Spinner from 'react-native-loading-spinner';
+import Spinner from 'react-native-material-progress-spinner';
 
   render() {
     return (
       <Spinner
+        color='red'
         lineWidth={1}
+        size={46}
       />
     )
   }
@@ -45,8 +46,8 @@ import Spinner from 'react-native-loading-spinner';
 | :------------ |:---------------:| :---------------:| :-----|
 | isAnimating | `true` | `boolean` | Visibility of the spinner |
 | color | `rgb(0, 122, 255)` | `string` | Color of the spinner |
-| backgroundRailColor | `transparent` | `string` | color of the background arc |
 | colorSequence | `undefined` | `Array<string>` |  | An array of colors that changes on each cycle |
+| backgroundRailColor | `transparent` | `string` | color of the background arc |
 | size | `36` | `number` | Size of the spinner |
 | lineWidth | `2` | `number` | line width of the arc |
 | rotationDirection | `clockwise` | `string` | can either be `clockwise` or `counter-clockwise` |
