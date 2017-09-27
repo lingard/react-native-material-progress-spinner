@@ -1,7 +1,9 @@
 # react-native-material-progress-spinner
 
 
-A port of [DRPLoadingSpinner](https://github.com/justindhill/DRPLoadingSpinner)
+A react-native port of [DRPLoadingSpinner](https://github.com/justindhill/DRPLoadingSpinner)
+
+Only supports iOS at the moment.
 
 ## Getting started
 
@@ -43,9 +45,15 @@ import Spinner from 'react-native-loading-spinner';
 | :------------ |:---------------:| :---------------:| :-----|
 | isAnimating | `true` | `boolean` | Visibility of the spinner |
 | color | #000000 | `string` | Color of the spinner |
-| colorSequence | #000000 | `Array<string>` | Color of the spinner |
-| size | 37 | `number` | Size of the spinner |
-
+| backgroundRailColor | 'transparent' | `string` | color of the background arc |
+| colorSequence | undefined | `Array<string>` |  | An array of colors that changes on each cycle |
+| size | 36 | `number` | Size of the spinner |
+| lineWidth | 2 | `number` | line width of the arc |
+| rotationDirection | clockwise | `string` | can either be `clockwise` or `counter-clockwise` |
+| rotationCycleDuration | 1500 | `number` | Duration of the rotation in ms |
+| drawCycleDuration | 750 | `number` | length of time taken up by any period of expansion or contraction in ms |
+| maximumArcLength | (2 * Math.PI) - (Math.PI / 4) | number | |
+| minimumArcLength | 0.1 | number | |
 
 ## Acknowledgements
 
