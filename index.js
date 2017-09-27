@@ -48,7 +48,7 @@ export default class MaterialProgressSpinner extends PureComponent<Props> {
     isAnimating: true,
     size: 28,
     lineWidth: 2,
-    color: 'blue',
+    color: 'rgb(0, 122, 255)',
     backgroundRailColor: 'transparent',
     rotationDirection: 'clockwise',
     drawCycleDuration: 750, // milliseconds

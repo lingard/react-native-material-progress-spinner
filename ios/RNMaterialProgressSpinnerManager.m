@@ -31,7 +31,7 @@ RCT_EXPORT_MODULE();
 RCT_EXPORT_VIEW_PROPERTY(isAnimating, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(size, CGFloat)
 RCT_EXPORT_VIEW_PROPERTY(lineWidth, CGFloat)
-RCT_EXPORT_VIEW_PROPERTY(colorSequence, NSArray<NSNumber *>);
+RCT_EXPORT_VIEW_PROPERTY(colorSequence, NSArray<UIColor *>);
 RCT_EXPORT_VIEW_PROPERTY(backgroundRailColor, UIColor)
 RCT_EXPORT_VIEW_PROPERTY(rotationCycleDuration, CFTimeInterval)
 RCT_EXPORT_VIEW_PROPERTY(drawCycleDuration, CFTimeInterval)
